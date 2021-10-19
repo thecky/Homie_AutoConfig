@@ -1,0 +1,17 @@
+{
+	"wifi": {
+		"ssid": "MySSID",
+		"password": "the_secret_pw"
+	},
+	"mqtt": {
+		"host": "mqtt.host.local",
+		"port": 1883,
+		"base_topic": "homie/",
+		"auth": true,
+		"username": "mqtt-username",
+		"password": "mqtt-password"
+	},
+	"ota": {
+		"enabled": true
+	}
+}
